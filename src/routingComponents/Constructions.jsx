@@ -16,7 +16,7 @@ const Constructions = () => {
       </h1>
 
       {/* Image 1 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-900">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-[900px]">
           <img
             src={construction1}
             alt="Gallery 1"
@@ -26,7 +26,7 @@ const Constructions = () => {
 
 
          {/* Image 2 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-900">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-[900px]">
           <img
             src={construction2}
             alt="Gallery 2"
@@ -35,7 +35,7 @@ const Constructions = () => {
         </div>
 
         {/* Image 3 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-900">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-[900px]">
           <img
             src={construction3}
             alt="Gallery 3"
@@ -44,7 +44,7 @@ const Constructions = () => {
         </div>
 
         {/* Image 4 */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-900">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden w-[900px]">
           <img
             src={construction4}
             alt="Gallery 4"
