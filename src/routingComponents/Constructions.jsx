@@ -20,7 +20,7 @@ const Constructions = () => {
           <img
             src={construction1}
             alt="Gallery 1"
-            className="w-full h-auto object-contain rounded-2xl"
+            className="w-900 h-500 object-contain rounded-2xl"
           />
         </div>
 
@@ -30,7 +30,7 @@ const Constructions = () => {
           <img
             src={construction2}
             alt="Gallery 2"
-            className="w-900 h-500 object-contain rounded-2xl"
+            className="w-800 h-400 object-contain rounded-2xl"
           />
         </div>
 
