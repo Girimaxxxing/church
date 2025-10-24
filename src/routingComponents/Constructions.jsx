@@ -20,7 +20,7 @@ const Constructions = () => {
           <img
             src={construction1}
             alt="Gallery 1"
-            className="w-900 h-500 object-contain rounded-2xl mx-auto"
+            className="w-[900px] h-[500px] object-contain rounded-2xl mx-auto"
           />
         </div>
 
@@ -30,7 +30,7 @@ const Constructions = () => {
           <img
             src={construction2}
             alt="Gallery 2"
-            className="w-800 h-400 object-contain rounded-2xl mx-auto"
+            className="w-[900px] h-[500px] object-contain rounded-2xl mx-auto"
           />
         </div>
 
@@ -39,7 +39,7 @@ const Constructions = () => {
           <img
             src={construction3}
             alt="Gallery 3"
-            className="w-900 h-500 object-contain rounded-2xl mx-auto"
+            className="[900px] h-[500px] object-contain rounded-2xl mx-auto"
           />
         </div>
 
@@ -48,7 +48,7 @@ const Constructions = () => {
           <img
             src={construction4}
             alt="Gallery 4"
-            className="w-900 h-500 object-contain rounded-2xl mx-auto"
+            className="[900px] h-[500px] object-contain rounded-2xl mx-auto"
           />
         </div>
 
