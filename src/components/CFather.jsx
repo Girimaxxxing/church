@@ -1,0 +1,34 @@
+import React from "react";
+import cfather from "../assets/fatherImg/father1.jpg";
+
+const CFather = () => {
+  return (
+    <section className=" w-full h-[100vh] md:h-[85vh] flex flex-col md:flex-row  ">
+      <div className="bg-green md:w-[40vw] h-full flex relative justify-center">
+        <img
+          src={cfather}
+          alt="father-1"
+          className="w-[250px] h-[300px] md:w-[300px] md:h-[400px] absolute top-30 md:right-[-60px]  rounded "
+        />
+      </div>
+      <div className=" md:w-[60vw] h-full flex justify-center items-center ">
+        <header className="flex text-center flex-col  items-center capitalize gap-3  ">
+          <h1 className="text-5xl font-bold font-sans ">pope francis</h1>
+          <p className="font-bold">
+            - father of st. joseph the worker
+          </p>
+          <p className="sm:w-[45vw] ">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            repellat quod veniam ad, eaque quo?
+          </p>
+          <p className="font-serif">time period ( 2024 - 2028 )</p>
+          <button className="border-2 w-fit  border-green p-1 bg-green text-white rounded capitalize"> read more!</button>
+        </header>
+      </div>
+    </section>
+
+   
+  );
+};
+
+export default CFather;
